@@ -1,0 +1,98 @@
+body{
+    background-image: url(BG1.png);
+    background-attachment: fixed;
+    background-position: -50px;
+    background-size: auto;
+    font-size: 13px;
+  }
+  
+#label{
+    margin: 0;
+    padding: 0;
+    position: absolute; 
+    top: 25%;
+    left: 680px;
+  }
+  
+  #label1{
+  
+    margin: 0;
+    padding: 0;
+    position: absolute;
+    top: 30%;
+    left:680px;
+  }
+  
+  #l1{
+    position: absolute;
+    top: 26%;
+    left: 645px;
+    color: #c1c1c1;
+    text-transform: uppercase;
+    font-weight: 1000;
+    font-size-adjust: none;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+  }
+  
+
+  #registerbtn{
+    position: absolute;
+    padding: 10px 20px;
+    display: inline-block;
+    top: 40%;
+    left: 755px;
+    border-radius: 5px;
+    background-color: #007bff;
+    color: white;
+    font-size: 16px;
+    text-decoration: none;
+    border: none;
+    cursor: pointer;
+    transition: all 0.3s ease;
+    text-transform: uppercase;
+    
+
+  }
+
+  #registerbtn:hover{
+    background-color: black;
+ }
+
+  #submitbtn{
+    text-transform: uppercase;
+    display: inline-block;
+    padding: 10px 20px;
+    position: absolute;
+    top: 40%;
+    left: 645px;
+    border-radius: 5px;
+    background-color: #007bff;
+    color: white;
+    font-size: 16px;
+    text-decoration: none;
+    border: none;
+    cursor: pointer;
+    transition: all 0.3s ease;
+ }
+ 
+ #submitbtn:hover{
+    background-color: black;
+ }
+
+  
+  button:hover {
+    background-color: #0069d9;
+  }
+  
+input {
+        width: 200px;
+        height: 28px;
+        padding: 2px;
+        border: 1px solid #ccc;
+        border-radius: 10px;
+        font-size: 16px;
+        position: absolute;
+        left: -37px;
+        top: 30px;
+    }
+      

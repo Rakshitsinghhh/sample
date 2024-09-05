@@ -1,0 +1,46 @@
+body{
+    background-image: url(BG.jpg);
+    background-attachment: fixed;
+    background-position: -50px;
+    background-size: auto;
+    font-size: 13px;
+  }
+
+label {
+    display: block;
+    color: #ccc;
+    position: relative;
+    left: 40%;
+    top: 150px;
+
+
+  }
+
+input{
+    position: relative;
+    left: 45%;
+    top: 130px;
+
+}
+
+button{
+    position: absolute;
+    top: 30%;
+    left: 60%;
+    text-transform: uppercase;
+    display: inline-block;
+    padding: 20px 30px;
+    position: absolute;
+    border-radius: 5px;
+    background-color: #007bff;
+    color: white;
+    font-size: 16px;
+    text-decoration: none;
+    border: none;
+    cursor: pointer;
+    transition: all 0.3s ease;
+}
+
+button:hover{
+    background-color: rgb(29, 246, 0);
+ }
